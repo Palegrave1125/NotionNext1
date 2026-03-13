@@ -166,7 +166,7 @@ function TagsGroupBar() {
  * 英雄区左下角3个指定分类按钮
  * @returns
  */
-function GroupMenu() {
+/*function GroupMenu() {
   const url_1 = siteConfig('HEO_HERO_CATEGORY_1', {}, CONFIG)?.url || ''
   const title_1 = siteConfig('HEO_HERO_CATEGORY_1', {}, CONFIG)?.title || ''
   const url_2 = siteConfig('HEO_HERO_CATEGORY_2', {}, CONFIG)?.url || ''
@@ -198,7 +198,7 @@ function GroupMenu() {
           <i className='fa-solid fa-fire-flame-curved text-4xl'></i>
         </div>
       </SmartLink>
-      {/* 第三个标签在小屏上不显示 */}
+      {/* 第三个标签在小屏上不显示 /}
       <SmartLink
         href={url_3}
         className='group relative overflow-hidden bg-gradient-to-r from-teal-300 to-cyan-300 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in'>
@@ -213,6 +213,7 @@ function GroupMenu() {
     </div>
   )
 }
+*/
 
 /**
  * 置顶文章区域
