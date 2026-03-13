@@ -15,7 +15,7 @@ import CONFIG from '../config'
  * 右侧：今日卡牌遮罩
  * @returns
  */
-const Hero = props => {
+/*const Hero = props => {
   const HEO_HERO_REVERSE = siteConfig('HEO_HERO_REVERSE', false, CONFIG)
   return (
     <div
@@ -26,18 +26,18 @@ const Hero = props => {
         style={{ zIndex: 1 }}
         className={`${HEO_HERO_REVERSE ? 'xl:flex-row-reverse' : ''}
            recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex relative`}>
-        {/* 左侧banner组 */}
+        {/* 左侧banner组 *}
         <BannerGroup {...props} />
 
-        {/* 中间留白 */}
+        {/* 中间留白 *}
         <div className='px-1.5 h-full'></div>
 
-        {/* 右侧置顶文章组 */}
+        {/* 右侧置顶文章组 *}
         <TopGroup {...props} />
       </div>
     </div>
   )
-}
+}*/
 
 /**
  * 英雄区左侧banner组
